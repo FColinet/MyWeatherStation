@@ -21,6 +21,7 @@ Projet de station météo personnelle basée sur un réseau **Modbus RTU** sur b
 
 ## Documentation
 
+- [Document d'architecture](docs/architecture.md) — Vue d'ensemble du système, topologie réseau, flux de données, choix techniques et contraintes.
 - [Documentation complète du réseau Modbus](docs/documentation.md) — registres, adresses et trames de configuration (changement d'adresse, baud rate) de chaque capteur.
 - Fiches techniques des équipements dans le dossier [`docs/docs/`](docs/docs/) :
   - [NB114 (passerelle)](docs/docs/NB114_UserManual_FR_V1.6.pdf)
@@ -36,6 +37,7 @@ Projet de station météo personnelle basée sur un réseau **Modbus RTU** sur b
 .
 ├── README.md
 └── docs/
+    ├── architecture.md       # Document d'architecture du système
     ├── documentation.md      # Schéma de principe, registres & trames Modbus
     └── docs/                 # Fiches techniques PDF des équipements
 ```
