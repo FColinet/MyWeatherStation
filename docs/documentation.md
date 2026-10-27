@@ -160,3 +160,12 @@ Baud: 9600
 | Adresse<br>Code | Fonction | Registre<br>1er bit | Registre<br>2nd bit | Position<br>1er bit | Position<br>2nd bit | CRC<br>1er bit | CRC<br>2nd bit |
 | - | - | - | - | - | - | - | - |
 | 0x01 | 0x06 | 0x00 | 0x64 | 0x00 | 0x0E | 0x49 | 0xD1 |
+
+### Caméra
+
+```
+Modèle: RLC-840A
+Protocol: IP
+```
+
+[Documentation](./docs/RLC-840A.pdf)
